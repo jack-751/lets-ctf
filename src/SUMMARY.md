@@ -19,7 +19,7 @@
 - [第5节：权限与访问控制](ctfbook/chapter_5/intro.md)
   - [函数可见性与权限分析](ctfbook/chapter_5/intro.md)
   - [实践：绕过访问控制](ctfbook/chapter_5/practice.md)
-- [第6节：高级Move特性](ctfbook/chapter_6/intro.md)
+- [第6节：逻辑漏洞和共享对象](ctfbook/chapter_6/intro.md)
   - [泛型与能力的漏洞分析](ctfbook/chapter_6/intro.md)
   - [实践：分析复杂合约漏洞](ctfbook/chapter_6/practice.md)
 - [第7节：智能合约交互](ctfbook/chapter_7/intro.md)
