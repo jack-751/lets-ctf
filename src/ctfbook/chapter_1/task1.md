@@ -1,7 +1,4 @@
-# Task1：随机签到挑战
-
-## 任务描述
-在第一节课中，你通过哈希验证获取了 flag。现在，挑战一个更复杂的多人解题任务！这个 Sui Move 合约结合随机性和多参数验证，要求你分析代码，查询链上状态，并推导多个关键值以获取 flag。flag 是一个格式为 `CTF{xxx}` 的字符串，每次正确调用都会输出。
+# Task1
 
 ## 任务代码
 以下是待分析的 Move 合约，完整代码请查看 [挑战合约](https://github.com/hoh-zone/lets-ctf/tree/main/src/ctfbook/chapter_1/task1)：
