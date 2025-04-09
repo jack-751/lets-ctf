@@ -3,8 +3,8 @@
 ## 任务代码
 以下是待分析的 Move 合约，完整代码请查看 [挑战合约](https://github.com/hoh-zone/lets-ctf/tree/main/src/ctfbook/chapter_2/task2)：
 ```
-PackageID: 0xe20b855ee6e3f78f509c2dd124a1dd737e5f1be0270a4a7e54192c926cff0ce4 
-Challenge ObjectID: 0x23935dfa3723c231e37a13377f3a31f485887909112c9217016cb890c2074bd8
+PackageID: 0xd26a14084af49f68d4612ef0815518c251f7a0459eaf2cbcb2757efafad442c5 
+Challenge ObjectID: 0x22c1330b43313cee7f0ca0ce36965343c1ae40577d80a4ffa8ab12986f50dea1
 ```
 
 ```move

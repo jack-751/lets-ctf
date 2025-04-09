@@ -90,7 +90,7 @@ module task2::task2 {
         assert!(challenge.attempts < challenge.max_attempts, E_MAX_ATTEMPTS_EXCEEDED);
         challenge.attempts = challenge.attempts + 1;
         let mut guess_data = guess;
-        vector::append(&mut guess_data, to_bytes(current_time));
+        vector::append(&mut guess_data, to_bytes(challenge.last_attempt_time));
         vector::append(&mut guess_data, to_bytes(challenge.attempts));
         let random = hash::sha3_256(guess_data);
         let prefix_length = challenge.guess_round * 2;
