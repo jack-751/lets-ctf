@@ -11,9 +11,9 @@
   - [阅读Move代码与常见问题](ctfbook/chapter_2/intro.md)
   - [实践：识别简单漏洞](ctfbook/chapter_2/practice.md)
   - [Task 2](ctfbook/chapter_2/task2.md)
-<!-- - [第3节：整数溢出与下溢](ctfbook/chapter_3/intro.md)
-  - [整数操作漏洞的原理](ctfbook/chapter_3/intro.md)
-  - [实践：利用溢出实现非法转账](ctfbook/chapter_3/practice.md)
+- [第3节：泛型类型安全](ctfbook/chapter_3/intro.md)
+  - [泛型类型安全](ctfbook/chapter_3/intro.md)
+  - [实践：利用泛型漏洞伪造投票凭证](ctfbook/chapter_3/practice.md)
 - [第4节：资源管理漏洞](ctfbook/chapter_4/intro.md)
   - [Move资源系统与线性类型](ctfbook/chapter_4/intro.md)
   - [实践：误用或转移资源](ctfbook/chapter_4/practice.md)
@@ -28,7 +28,7 @@
   - [实践：利用交互实现攻击](ctfbook/chapter_7/practice.md)
 - [第8节：综合CTF挑战](ctfbook/chapter_8/intro.md)
   - [综合解题策略与复习](ctfbook/chapter_8/intro.md)
-  - [实践：多步骤综合挑战](ctfbook/chapter_8/practice.md) -->
+  - [实践：多步骤综合挑战](ctfbook/chapter_8/practice.md)
 <!-- - [附录](ctfbook/appendix/resources.md)
   - [推荐资源与工具](ctfbook/appendix/resources.md)
   - [常见问题解答](ctfbook/appendix/faq.md) -->
