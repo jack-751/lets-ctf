@@ -77,7 +77,7 @@ module votechain::vote {
         public_transfer(coin, addr);
     }
 
-    public entry fun register_voter<T>(vote_coin: &coin::Coin<T>, ctx: &mut TxContext) {
+    public entry fun register_voter<T>(vote_coin: coin::Coin<T>, ctx: &mut TxContext) {
         let amount = vote_coin.value();
         assert!(amount == 100,1);
         let sender = tx_context::sender(ctx);
@@ -86,6 +86,7 @@ module votechain::vote {
             amount: 100,
         };
         public_transfer(token, sender);
+        public_transfer(vote_coin, @0x0);
     }
 
     public entry fun vote<T>(token: &VoteToken<T>, store: &mut VoteStore, proposal_name: String) {
