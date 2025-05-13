@@ -42,7 +42,7 @@ public struct VoteToken<phantom T> has key, store {
   ```
 
   - `<T>` 允许函数为任意类型创建 `VoteToken`。
-  - 调用者可以在调用时指定具体类型，如 `register_voter<0X1::Token::Token>`。
+  - 调用者可以在调用时指定具体类型，如 `register_voter<0x1::Token::Token>`。
 
 - **多类型参数**：支持多个类型参数，顺序重要。例如：
 
