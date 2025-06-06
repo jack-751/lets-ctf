@@ -3,8 +3,11 @@
 
 ## 题目
 https://2024.justctf.team/challenges  
+有三道sui move题目
 
-- The Otter Scrolls
+- TOS
+```
+The Otter Scrolls
 Points: 246
 zwalaczkonia12
 BLOCKCHAIN
@@ -14,8 +17,11 @@ Challenge created by embe221ed & Darkstar49 from OtterSec
 
 nc tos.nc.jctf.pro 31337
 https://s3.cdn.justctf.team/a3cc5591-ad0a-47e5-bce0-78ff9bb7d2f3/tos_docker.tar.gz
+```
 
-- Dark BrOTTERhood
+- DB
+```
+Dark BrOTTERhood
 Points: 275
 CyKor
 BLOCKCHAIN
@@ -25,10 +31,12 @@ Challenge created by embe221ed & Darkstar49 from OtterSec
 
 nc db.nc.jctf.pro 31337
 https://s3.cdn.justctf.team/42840bf9-5734-42c6-9463-2b61238148e8/db_docker.tar.gz
+```
 
 
-
-- World of Ottercraft
+- WOO
+```
+World of Ottercraft
 Points: 271
 zwalaczkonia12
 BLOCKCHAIN
@@ -38,6 +46,7 @@ Challenge created by embe221ed & Darkstar49 from OtterSec
 
 nc woo.nc.jctf.pro 31337
 https://s3.cdn.justctf.team/a951edfb-bd5f-40a0-b334-ad650d889ac3/woo_docker.tar.gz
+```
 
 
 ## 部署题目
