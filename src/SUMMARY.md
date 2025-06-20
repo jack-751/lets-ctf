@@ -17,12 +17,12 @@
 - [第4节：资源管理与所有权](ctfbook/chapter_4/intro.md)
   - [了解资源管理问题](ctfbook/chapter_4/global_storage.md)
   - [实践：资源管理不当分析](ctfbook/chapter_4/practice.md)
-<!-- - [第5节：权限与访问控制](ctfbook/chapter_5/intro.md)
+- [第5节：权限与访问控制](ctfbook/chapter_5/intro.md)
   - [权限控制与 TxContext 验证](ctfbook/chapter_5/access_control.md)
-  - [实践：绕过权限篡改提案](ctfbook/chapter_5/practice.md) -->
-<!-- - [第6节：逻辑漏洞与状态管理](ctfbook/chapter_6/intro.md)
-  - [状态管理与逻辑漏洞分析](ctfbook/chapter_6/state_management.md)
-  - [实践：实现重复投票](ctfbook/chapter_6/practice.md) -->
+  - [实践：分析权限控制漏洞](ctfbook/chapter_5/practice.md)
+- [第6节：逻辑漏洞与状态管理](ctfbook/chapter_6/intro.md)
+  - [了解逻辑漏洞与状态管理](ctfbook/chapter_6/state_management.md)
+  - [实践：分析状态管理逻辑漏洞](ctfbook/chapter_6/practice.md)
 <!-- - [第7节：跨合约交互安全](ctfbook/chapter_7/intro.md)
   - [跨模块交互的风险分析](ctfbook/chapter_7/cross_module.md)
   - [实践：伪造外部验证](ctfbook/chapter_7/practice.md) -->
