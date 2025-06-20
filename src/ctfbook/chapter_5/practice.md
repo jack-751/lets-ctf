@@ -102,7 +102,7 @@ module chapter_5::vote {
         let proposal = object_table::borrow_mut(&mut store.proposals, proposal_name);
         assert!(!proposal.closed, E_PROPOSAL_CLOSED);
         let sender = tx_context::sender(ctx);
-        assert!(vec_map::contains(&store.voters, &sender),E_ALREADY_VOTE);
+        assert!(!vec_map::contains(&store.voters, &sender),E_ALREADY_VOTE);
         vec_map::insert(&mut store.voters, sender, vote_coin.value());
         let amount = into_balance(vote_coin);
         proposal.votes = proposal.votes + amount.value();

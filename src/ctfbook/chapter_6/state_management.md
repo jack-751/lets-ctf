@@ -44,7 +44,7 @@ Sui Move 通过对象和集合管理状态：
 
 ### 2.2 正确更新状态
 - 使用 `VecMap` 或 `VecSet` 精确记录投票状态。
-- 示例：assert!(voter_amount == 0) 防止重复投票。
+- 示例：assert!(!vec_map::contains(&store.voters, &sender),E_ALREADY_VOTE);防止重复投票。
 
 ### 2.3 最小化状态暴露
 - 减少公开状态（如 `share_object` 的敏感数据）。
