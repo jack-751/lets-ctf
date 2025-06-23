@@ -40,7 +40,6 @@ module chapter_6::vote {
     const E_ALREADY_MINTED: u64 = 3;
     const E_UNAUTHORIZED: u64 = 4;
     const E_PROPOSAL_CLOSED: u64 = 5;
-    const MIN_VOTES: u64 = 1000;
 
     fun init(witness: VOTE, ctx: &mut TxContext) {
         let (treasury_cap, meta) = coin::create_currency(
@@ -77,17 +76,14 @@ module chapter_6::vote {
     public entry fun create_proposal(
         store: &mut VoteStore,
         name: String,
-        lock_amount: Coin<VOTE>,
         ctx: &mut TxContext
     ) {
-        assert!(lock_amount.value() > 0, E_INVALID_AMOUNT);
         assert!(!object_table::contains(&store.proposals, name), E_INVALID_PROPOSAL);
-        let balance = coin::into_balance(lock_amount);
         let proposal = Proposal {
             id: object::new(ctx),
             owner: tx_context::sender(ctx),
             votes: 0,
-            locked_tokens: balance,
+            locked_tokens: zero<VOTE>(),
             closed: false,
         };
         object_table::add(&mut store.proposals, name, proposal);
@@ -124,7 +120,6 @@ module chapter_6::vote {
         let sender = tx_context::sender(ctx);
         assert!(sender == proposal.owner, E_UNAUTHORIZED);
         assert!(!proposal.closed, E_PROPOSAL_CLOSED);
-        assert!(proposal.votes >= MIN_VOTES, E_INVALID_AMOUNT);
         proposal.closed = true;
         let coin = coin::from_balance(proposal.locked_tokens.withdraw_all(), ctx);
         public_transfer(coin, sender);
