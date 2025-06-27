@@ -23,12 +23,12 @@
 - [第6节：逻辑漏洞与状态管理](ctfbook/chapter_6/intro.md)
   - [了解逻辑漏洞与状态管理](ctfbook/chapter_6/state_management.md)
   - [实践：分析状态管理逻辑漏洞](ctfbook/chapter_6/practice.md)
-<!-- - [第7节：跨合约交互安全](ctfbook/chapter_7/intro.md)
-  - [跨模块交互的风险分析](ctfbook/chapter_7/cross_module.md)
-  - [实践：伪造外部验证](ctfbook/chapter_7/practice.md) -->
-<!-- - [第8节：综合CTF挑战](ctfbook/chapter_8/intro.md)
+- [第7节：跨合约交互安全](ctfbook/chapter_7/intro.md)
+  - [跨合约安全与溢出漏洞](ctfbook/chapter_7/cross_module.md)
+  - [实践：利用漏洞造成溢出实现攻击](ctfbook/chapter_7/practice.md)
+- [第8节：综合CTF挑战](ctfbook/chapter_8/intro.md)
   - [综合漏洞分析与解题策略](ctfbook/chapter_8/vulnerability_analysis.md)
-  - [实践：攻破综合漏洞](ctfbook/chapter_8/practice.md) -->
+  - [实践：攻破综合漏洞](ctfbook/chapter_8/practice.md)
 <!-- - [附录](ctfbook/appendix/resources.md)
   - [推荐资源与工具](ctfbook/appendix/resources.md)
   - [常见问题解答](ctfbook/appendix/faq.md) -->
